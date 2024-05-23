@@ -1,0 +1,131 @@
+
+body{
+    font-family: 'Montserrat' sans-serif;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #ff4c68, #B04759, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 70%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+/* .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  } */
+  
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-Bold",sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #afafaf;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.nav-item{
+    padding: 0 18px;
+    color: #fff;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+    color: #fff;
+}
+
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    display: block;
+    margin: 0 20%;
+    transform: rotate(15deg);
+ }
+ /* Feature Section */
+ #features{
+ padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonials*/
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    
+    background-color: #ef8172;
+    color: #fff ;
+}
+.text-body-emphasis{
+    font-size: 2rem;
+}
+.test-image{
+    width: 25%;
+    border-radius: 200%;
+    margin: 20px;
+}
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+    margin-top: 15px;
+}
